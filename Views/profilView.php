@@ -1,4 +1,5 @@
-<?php require('header.php'); ?>
+<?php require('header.php'); 
+include_once('../Controllers/index.php');?>
 <!DOCTYPE html>
 <link href="../Views/profilView.css" rel="stylesheet" /> 
 <body>
