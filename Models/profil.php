@@ -16,7 +16,7 @@ function getProfil($profilId)
     }
     $profilGuillaume = new Profil();
     $profilGuillaume->id = 1;
-    $profilGuillaume->point = 25;
+    $profilGuillaume->point = 50;
 
     $profilLucas = new Profil();
     $profilLucas->id = 2;
