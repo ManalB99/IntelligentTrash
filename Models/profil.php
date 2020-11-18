@@ -1,12 +1,5 @@
 <?php
 
-
-
-function console_log( $data ){
-    echo '<script>';
-    echo 'console.log('. json_encode( $data ) .')';
-    echo '</script>';
-  }
 function getProfil($profilId)
 {
     class Profil
@@ -34,7 +27,6 @@ function getProfil($profilId)
     
     foreach($profils as &$profil){
         if($profil->id == $profilId){
-            console_log($profil);
             return $profil;
         }
     }
