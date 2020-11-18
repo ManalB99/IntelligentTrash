@@ -34,7 +34,7 @@
                 </div>
                 <div class="reduction" >
                     <p>
-                        3% réduction
+                        5% réduction
                     </p>
                 </div>
             </div>
@@ -46,7 +46,7 @@
                 </div>
                 <div class="reduction" >
                     <p>
-                        3% réduction
+                        7% réduction
                     </p>
                 </div>
             </div>
@@ -58,7 +58,7 @@
                 </div>
                 <div class="reduction" >
                     <p>
-                        3% réduction
+                        10% réduction
                     </p>
                 </div>
             </div>
@@ -70,7 +70,7 @@
                 </div>
                 <div class="reduction" >
                     <p>
-                        3% réduction
+                        12% réduction
                     </p>
                 </div>
             </div>
