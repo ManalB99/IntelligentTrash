@@ -1,12 +1,11 @@
 <?php
-//require('model.php');
-
-if (isset($_GET['id']) && $_GET['id'] > 0) {
-    $post = getProfil($_GET['id']);
+require('../Models/profil.php');
+//if (isset($_GET['id']) && $_GET['id'] > 0) {
+    $profil = getProfil(3);
     require('../Views/profilView.php');
-}
-else {
-    require('../Views/indexView.php');
-}
+//}
+//else {
+  //  require('../Views/indexView.php');
+//}
 
 
