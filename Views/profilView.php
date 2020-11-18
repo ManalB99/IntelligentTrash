@@ -17,24 +17,6 @@
 
                 
             <?php   
-            }else if($profil->point >= 100 && $profil->point < 150 )
-            {
-            ?>
-                <img src ="../images/profil2.png">  
-                <p></p>
-            <?php   
-            }else if($profil->point >= 150 && $profil->point < 200 )
-            {
-            ?>
-                <img src ="../images/profil3.png">  
-                <p></p>
-            <?php   
-            }else if($profil->point >= 200 && $profil->point < 250 )
-            {
-            ?>
-                <img src ="../images/profil4.png">  
-                <p></p>
-            <?php   
             }
             ?>
             </div>
