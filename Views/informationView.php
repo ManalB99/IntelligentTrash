@@ -1,6 +1,6 @@
 <?php require('header.php'); ?>
 <!DOCTYPE html>
-<link href="../Views/informationView.css" rel="stylesheet" /> 
+<link href="../CSS/informationView.css" rel="stylesheet" /> 
 <body>
     <div class="description">
         <p>

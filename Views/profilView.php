@@ -1,7 +1,7 @@
 <?php require('header.php'); 
 include_once('../Controllers/index.php');?>
 <!DOCTYPE html>
-<link href="../Views/profilView.css" rel="stylesheet" /> 
+<link href="../CSS/profilView.css" rel="stylesheet" /> 
 <body>
     <div class="headerProfil">
         <h3>Mon profil</h3>
