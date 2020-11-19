@@ -1,4 +1,5 @@
-<?php require('header.php'); ?>
+<?php require('header.php'); 
+include_once('../Controllers/index.php');?>
 <!DOCTYPE html>
 <link href="../Views/profilView.css" rel="stylesheet" /> 
 <body>
@@ -14,8 +15,7 @@
             ?>
                 <img src ="../images/profil1.png"/>
                 <h3>Première main ( <?= $profil->point ?> points )</h3>
-
-                
+                <a href="informationView.php">Besoin d'aide ?</a>
             <?php   
             }
             ?>
@@ -65,3 +65,6 @@
         document.getElementById("generateQRCODE").disabled = true;
     }
 </script>
+
+
+<?php include '../views/footer.php'; ?>

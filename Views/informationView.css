@@ -1,11 +1,18 @@
 .description{
     text-align:center;
 }
+.description p{
+    color:black !important;
+}
 .littleImg{
     width:30px;
     height:30px;
 }
+.detailBadges p{
+    color:black !important;
+}
 .detailBadges{
+    
     margin: 0 auto;
     width:30%;
     margin-top:5%;
