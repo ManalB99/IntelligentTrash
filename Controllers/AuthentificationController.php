@@ -1,5 +1,4 @@
 <?php
-    include('../Views/header.php');
 
     if(isset($_POST['login']) and isset($_POST['password'])){
         if(isset($_POST['login'])) {
@@ -15,4 +14,3 @@
     }
 
 ?>
-<?php include ('../Views/footer.php'); ?>

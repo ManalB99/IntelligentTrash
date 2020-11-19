@@ -30,8 +30,10 @@ body{
 .boite h1{
 	color: #000000; 
 	text-transform: none;
-	font-weight: 500;;
+	font-weight: 500;
 }
+
+
 
 .boite input[type="email"],.boite input[type="number"]:focus,
 .boite input[type="text"],.boite input[type="username"],

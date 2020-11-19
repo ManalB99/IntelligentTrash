@@ -5,7 +5,7 @@
 
 <body>
     <div class="row justify-content-md-center mx-auto">
-            <div class="card col col-lg-2"  id="login" style=" margin-top: 200px;padding-top: 20px;padding-bottom: 50px; text-align:center;">
+            <div class="card col col-lg-2"  id="login" style=" margin-top: 50px;padding-top: 20px;padding-bottom: 50px; text-align:center;">
                 <div class="col">
                     <form method="POST" action="index.php" >
 
@@ -23,11 +23,29 @@
 
 
                             </div>
-                            <button type="submit" class="btn btn-primary">se connecter</button>
+                            <button type="submit">Se connecter</button>
+                            <style>
+                                button{
+                                    border:0;
+                                    background : none;
+                                    display: block;
+                                    margin: 1px auto;
+                                    text-align: center;
+                                    border:1px solid #A8EDAA ;
+                                    padding: 14px 20px;
+                                    outline: none;
+                                    color: #2F2E33;
+                                    border-radius: 24px;
+                                    transition:0.25s;
+                                    cursor: pointer;
+                                }
+                            </style>
                     </form>
                 </div>
                 <div class="col mt-5">
-                    <button class="btn btn-primary">s'inscrire</button>
+                    <form action = "../Controllers/registration.php">
+                        <button type = "submit">S'inscrire</button>
+                    </form>
                 </div>
             </div>
         </div>

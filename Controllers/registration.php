@@ -57,13 +57,18 @@
 ?>
 
 <head>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="../CSS/registration.css" type="text/css" media="screen">
-<script src="https://kit.fontawesome.com/99f567f48c.js" crossorigin="anonymous"></script>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../CSS/registration.css" type="text/css" media="screen">
+	<script src="https://kit.fontawesome.com/99f567f48c.js" crossorigin="anonymous"></script>
 </head>
 <body>	
 		<form action='/views/registration.php' method='POST' class="boite" enctype="multipart/form-data">
 			<h1>Inscription</h1>
+			<style>
+				h1 {
+					color: black;
+				}
+			</style>
 
 
 			<div class="form-group">

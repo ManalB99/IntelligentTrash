@@ -31,7 +31,7 @@
 			      	<li class="dropdown">
 					    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../images/logoLogIn.png" class="ibar" alt="" style="width: 20px";></a>
 					    <div class="dropdown-menu dropColor" aria-labelledby="navbarDropdownMenuLink">
-					        <a class="dropdown-item" href="../Controllers/AuthentificationController.php">Connexion</a>
+					        <a class="dropdown-item" href="../Views/index.php">Connexion</a>
 					        <a class="dropdown-item" href="../Controllers/Registration.php">Inscription</a>
 					    </div>
 					</li>
