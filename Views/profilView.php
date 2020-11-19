@@ -15,8 +15,7 @@ include_once('../Controllers/index.php');?>
             ?>
                 <img src ="../images/profil1.png"/>
                 <h3>Première main ( <?= $profil->point ?> points )</h3>
-
-                
+                <a href="informationView.php">Besoin d'aide ?</a>
             <?php   
             }
             ?>
