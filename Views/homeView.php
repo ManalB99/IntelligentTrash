@@ -1,7 +1,6 @@
 <?php require('header.php'); ?>
 <!Doctype html>
   <head>
-    <title>Add Map</title>
 	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCj2VgbhMzLzO8hDN3uEV-2km6cERpczpg&callback=initMap&libraries=&v=weekly"
@@ -36,7 +35,6 @@
     </script>
   </head>
   <body>
-    <h3>My Google Maps Demo</h3>
     <p>&nbsp; &nbsp; &nbsp; &nbsp;</p>
     <!--The div element for the map -->
     <div id="map"></div>

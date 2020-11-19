@@ -9,7 +9,7 @@
             }
 
         if($login  == "Admin@gmail.com" && $password == "admin") {
-                header('Location: /header.php'); 
+                header('Location: /IntelligentTrash/Views/homeView.php'); 
             }
     }
 

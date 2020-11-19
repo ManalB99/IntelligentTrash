@@ -28,6 +28,9 @@
 					<li class="nav-item active">
             			<a class="nav-link" href="../Views/profilView.php">Profil<span class="sr-only">(current)</span></a>
 					</li>
+					<li class="nav-item active">
+            			<a class="nav-link" href="../Views/informationView.php">Info<span class="sr-only">(current)</span></a>
+					</li>
 			      	<li class="dropdown">
 					    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../images/logoLogIn.png" class="ibar" alt="" style="width: 20px";></a>
 					    <div class="dropdown-menu dropColor" aria-labelledby="navbarDropdownMenuLink">

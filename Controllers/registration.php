@@ -1,4 +1,4 @@
-<?php include '../Views/header.php'; ?>
+
 
 
 <?php 
@@ -57,12 +57,15 @@
 ?>
 
 <head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="../CSS/registration.css" type="text/css" media="screen">
-	<script src="https://kit.fontawesome.com/99f567f48c.js" crossorigin="anonymous"></script>
-</head>
-<body>	
-		<form action='/views/registration.php' method='POST' class="boite" enctype="multipart/form-data">
+		<meta charset="utf-8">
+		<title>IntelligentTrash</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="../CSS/headerfooter.css" type="text/css">
+	</head>
+<body>
+<div class="row justify-content-md-center mx-auto">
+    <div class="card col col-lg-2"  id="login" style=" margin-top: 50px;padding-top: 20px;padding-bottom: 50px; text-align:center;">
+		<form action='/IntelligentTrash/Views/index.php' method='POST' class="boite" enctype="multipart/form-data">
 			<h1>Inscription</h1>
 			<style>
 				h1 {
@@ -115,8 +118,10 @@
 			</div>
 			<p>&nbsp; &nbsp; &nbsp;</p>
 
-			<button type='submit'>S'inscrire</button>
+			<button>S'inscrire</button>
 		</form>
+	</div>
+</div>
 </body>
 <?php include ('../Views/footer.php'); ?>
 
