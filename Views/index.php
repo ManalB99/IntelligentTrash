@@ -34,3 +34,5 @@
     </div>
 
 </body>
+
+<?php include '../views/footer.php'; ?>

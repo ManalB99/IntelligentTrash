@@ -9,10 +9,10 @@
                     $password = htmlspecialchars($_POST['password']);
             }
 
-            if($login  == "Admin@gmail.com" && $password == "admin") {
+        if($login  == "Admin@gmail.com" && $password == "admin") {
                 header('Location: /header.php'); 
             }
     }
 
-
 ?>
+<?php include ('../Views/footer.php'); ?>

@@ -66,3 +66,6 @@ include_once('../Controllers/index.php');?>
         document.getElementById("generateQRCODE").disabled = true;
     }
 </script>
+
+
+<?php include '../views/footer.php'; ?>
